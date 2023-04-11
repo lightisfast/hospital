@@ -1,0 +1,11 @@
+.brand {
+  background: #100028 !important;
+}
+
+.brand-text {
+  color: green !important;
+}
+
+form {
+  max-width: 460px;
+}

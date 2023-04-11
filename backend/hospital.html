@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Doctors' link</title>
+    <link rel="stylesheet" type="text/css" href="doctor.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Hospitals</a></li>
+          <li><a href="#">Patients log</a></li>
+          <li><a href="#">Working-hours</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h1><b>The Doctors' link</b></h1>
+        <p>A place where patients easily get connected to their doctors as well as make appointments with them at no cost.</p>
+      </section>
+      <section>
+        <h2>Upcoming Events</h2>
+        <li><a href="#">The actual relase of this website - April - 5 - 2023</a></li>
+        <ul>
+         <li><a href="#"> Approval of this website to operate - May - 10 - 2023</a></li>
+        </ul>
+      </section>
+      <form>
+        <label for="email">Enter your email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <button type="submit" onclick="subscribe()">Subscribe</button>
+      </form>
+    </main>
+    <footer>
+      <p>&copy; 2023 doctors' link. All rigths reserved.</p>
+    </footer>
+
+    <script>
+      function subscribe(){
+        var email = document.getElementByld("email").value;
+        alert("Thank you for subscribing with email:" + email);
+      }
+    </script>
+  </body>
+</html>
